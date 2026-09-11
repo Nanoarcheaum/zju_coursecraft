@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "培养方案课程—学期映射",
+  "type": "object",
+  "required": ["kind", "schemaVersion", "metadata", "courses"],
+  "properties": {
+    "kind": {"const": "academic-curriculum-map"},
+    "schemaVersion": {"const": 1},
+    "metadata": {"type": "object", "required": ["title"], "properties": {"title": {"type": "string"}, "source": {"type": "string"}}},
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["recommendedTerms", "tags"],
+        "anyOf": [{"required": ["code"]}, {"required": ["name"]}],
+        "properties": {
+          "code": {"type": "string"},
+          "name": {"type": "string"},
+          "credits": {"type": ["number", "null"]},
+          "recommendedTerms": {"type": "array", "items": {"enum": ["y1-fall","y1-spring","y1-short","y2-fall","y2-spring","y2-short","y3-fall","y3-spring","y3-short","y4-fall","y4-spring"]}},
+          "tags": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
