@@ -1,0 +1,959 @@
+{
+  "kind": "academic-curriculum-map",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "浙江大学生物科学培养方案映射示例",
+    "source": "根据用户提供的浙江大学培养方案整理的结构示例；使用前请按最新官方方案核对"
+  },
+  "courses": [
+    {
+      "code": "ADMN1002G",
+      "name": "形势与政策Ⅰ",
+      "credits": 1,
+      "recommendedTerms": [
+        "y1-fall",
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX1001G",
+      "name": "思想道德与法治",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX2001G",
+      "name": "马克思主义基本原理",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-fall",
+        "y2-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX3001G",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall",
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX3002G",
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall",
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "ADMN2001G",
+      "name": "形势与政策Ⅱ",
+      "credits": 1,
+      "recommendedTerms": [
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "ECON2001G",
+      "name": "中国改革开放史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "HIST2001G",
+      "name": "新中国史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX2002G",
+      "name": "中国共产党历史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX2003G",
+      "name": "社会主义发展史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "ADMN1001G",
+      "name": "军训",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "EDU2001G",
+      "name": "军事理论",
+      "credits": 2,
+      "recommendedTerms": [
+        "y2-fall",
+        "y2-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PPAE4001G",
+      "name": "体测与锻炼Ⅰ",
+      "credits": 0.5,
+      "recommendedTerms": [
+        "y4-fall",
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "SIS1099G",
+      "name": "英语水平测试",
+      "credits": 1,
+      "recommendedTerms": [],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "SIS1001G",
+      "name": "大学英语Ⅲ",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "SIS1002G",
+      "name": "大学英语Ⅳ",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall",
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX1002GH",
+      "name": "中国近现代史纲要（H）",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CS1015GZ",
+      "name": "程序设计基础与实验",
+      "credits": 4,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CHEM1101MZ",
+      "name": "无机化学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CHEM2101MZ",
+      "name": "分析化学Ⅰ",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH1161GH",
+      "name": "微积分Ⅰ（H）",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH1232G",
+      "name": "线性代数（甲）",
+      "credits": 3.5,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CHEM1001MZ",
+      "name": "无机及分析化学实验",
+      "credits": 2.5,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CHEM1004F",
+      "name": "有机化学",
+      "credits": 4,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH1162GH",
+      "name": "微积分Ⅱ（H）",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PHY1001GH",
+      "name": "普通物理学Ⅰ（H）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PHY1005GH",
+      "name": "普通物理学实验Ⅰ",
+      "credits": 1.5,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "CHEM2001MZ",
+      "name": "有机化学实验",
+      "credits": 2.5,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2461FZ",
+      "name": "概率论和数理统计",
+      "credits": 2.5,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PHY2001GH",
+      "name": "普通物理学Ⅱ（H）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PHY2005GH",
+      "name": "普通物理学实验Ⅱ",
+      "credits": 1.5,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO1001G",
+      "name": "大学生物学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2011F",
+      "name": "生物化学（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO2012F",
+      "name": "生物化学实验（甲）",
+      "credits": 2,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO2029M",
+      "name": "分子生物学及实验",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-spring",
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO3015F",
+      "name": "细胞生物学及实验（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO3025M",
+      "name": "生物信息学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO3026M",
+      "name": "遗传学及实验",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO4032M",
+      "name": "发育生物学实验",
+      "credits": 1,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3038MZ",
+      "name": "发育生物学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CAB2001F",
+      "name": "生物统计学与试验设计（甲）",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MED2308M",
+      "name": "人工智能与机器学习",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MED5075M",
+      "name": "神经建模与数据分析",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO3053M",
+      "name": "神经生物学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MED2307M",
+      "name": "系统神经科学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO2019F",
+      "name": "植物学及实验（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2005F",
+      "name": "动物学及实验（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2110F",
+      "name": "微生物学（甲）",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2113F",
+      "name": "微生物学实验",
+      "credits": 1,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2085M",
+      "name": "生物学综合野外实习",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "BIO2028M",
+      "name": "生态学基础及实验",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2048M",
+      "name": "生物信息与数据处理",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2080M",
+      "name": "发酵工程技能训练",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MED4065M",
+      "name": "基因、环路与行为",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PSY4001M",
+      "name": "认知神经科学专题",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO2017F",
+      "name": "植物生理学及实验（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3070M",
+      "name": "保护生物学（甲）",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3088M",
+      "name": "进化生物学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3091M",
+      "name": "病毒学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3081M",
+      "name": "基因工程技能训练",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3082M",
+      "name": "细胞工程技能训练",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MED2310M",
+      "name": "细胞分子神经生物学技能训练",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MED3309M",
+      "name": "脑机融合技能训练",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3065M",
+      "name": "序列与基因组分析",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3089M",
+      "name": "合成生物学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3090M",
+      "name": "免疫学",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO3109M",
+      "name": "生物物理学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHAR3002M",
+      "name": "药理学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHAR3008M",
+      "name": "药物化学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHAR3005M",
+      "name": "药物分析学",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHAR3013M",
+      "name": "药剂学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHAR4003M",
+      "name": "药事管理",
+      "credits": 2,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CBE3001M",
+      "name": "工业微生物学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CBE3024M",
+      "name": "应用分子生物学与基因工程",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CBE3004M",
+      "name": "生化反应工程",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CBE3005M",
+      "name": "生物分离工程",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "BIO4087M",
+      "name": "毕业论文（设计）",
+      "credits": 8,
+      "recommendedTerms": [
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PPAE1001GZ",
+      "name": "水上运动（PPAE1001GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE1002GZ",
+      "name": "水上运动（PPAE1002GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2001GZ",
+      "name": "水上运动（PPAE2001GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2002GZ",
+      "name": "水上运动（PPAE2002GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE1003GZ",
+      "name": "素质拓展（PPAE1003GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE1004GZ",
+      "name": "素质拓展（PPAE1004GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2003GZ",
+      "name": "素质拓展（PPAE2003GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2004GZ",
+      "name": "素质拓展（PPAE2004GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE1005GZ",
+      "name": "形体舞蹈（PPAE1005GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE1006GZ",
+      "name": "形体舞蹈（PPAE1006GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2005GZ",
+      "name": "形体舞蹈（PPAE2005GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PPAE2006GZ",
+      "name": "形体舞蹈（PPAE2006GZ）",
+      "credits": null,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "NAMED-SWIM",
+      "name": "游泳（方案未列课程代码）",
+      "credits": null,
+      "recommendedTerms": [
+        "y1-fall",
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    }
+  ]
+}
