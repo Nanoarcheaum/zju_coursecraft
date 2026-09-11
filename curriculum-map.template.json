@@ -1,0 +1,21 @@
+{
+  "kind": "academic-curriculum-map",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "请填写专业与版本",
+    "source": "由大模型根据培养方案转换"
+  },
+  "courses": [
+    {
+      "code": "COURSE1001",
+      "name": "课程名称",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    }
+  ]
+}
