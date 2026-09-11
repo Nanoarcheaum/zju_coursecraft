@@ -1,0 +1,927 @@
+{
+  "kind": "academic-curriculum-map",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "浙江大学数学与应用数学培养方案映射示例",
+    "source": "根据用户提供的浙江大学培养方案整理的结构示例；使用前请按最新官方方案核对"
+  },
+  "courses": [
+    {
+      "code": "ADMN1002G",
+      "name": "形势与政策Ⅰ",
+      "credits": 1,
+      "recommendedTerms": [
+        "y1-fall",
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX1001G",
+      "name": "思想道德与法治",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX1002G",
+      "name": "中国近现代史纲要",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX2001G",
+      "name": "马克思主义基本原理",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-fall",
+        "y2-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX3001G",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall",
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MARX3002G",
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall",
+        "y3-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "ADMN2001G",
+      "name": "形势与政策Ⅱ",
+      "credits": 1,
+      "recommendedTerms": [
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "ECON2001G",
+      "name": "中国改革开放史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "HIST2001G",
+      "name": "新中国史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX2002G",
+      "name": "中国共产党历史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MARX2003G",
+      "name": "社会主义发展史",
+      "credits": 1.5,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "ADMN1001G",
+      "name": "军训",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "EDU2001G",
+      "name": "军事理论",
+      "credits": 2,
+      "recommendedTerms": [
+        "y2-fall",
+        "y2-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "PPAE4001G",
+      "name": "体测与锻炼Ⅰ",
+      "credits": 0.5,
+      "recommendedTerms": [
+        "y4-fall",
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "SIS1099G",
+      "name": "英语水平测试",
+      "credits": 1,
+      "recommendedTerms": [],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "SIS1001G",
+      "name": "大学英语Ⅲ",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "SIS1002G",
+      "name": "大学英语Ⅳ",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall",
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CS1241G",
+      "name": "人工智能基础（A）",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CS1002G",
+      "name": "C程序设计基础",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "CS1006G",
+      "name": "Python程序设计",
+      "credits": 3,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH1101G",
+      "name": "数学分析Ⅰ",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH1201G",
+      "name": "高等代数与解析几何Ⅰ",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH1102G",
+      "name": "数学分析Ⅱ",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHY1001G",
+      "name": "大学物理（甲）Ⅰ",
+      "credits": 4,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "PHY2001G",
+      "name": "大学物理（甲）Ⅱ",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH1202F",
+      "name": "高等代数与解析几何Ⅱ",
+      "credits": 5,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2101M",
+      "name": "数学分析Ⅲ",
+      "credits": 5,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2102M",
+      "name": "常微分方程",
+      "credits": 3.5,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH1301M",
+      "name": "点集拓扑",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2201M",
+      "name": "抽象代数",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-fall",
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2104M",
+      "name": "复变函数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2301M",
+      "name": "微分几何",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2401M",
+      "name": "概率论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2103M",
+      "name": "实变函数",
+      "credits": 3.5,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2282M",
+      "name": "抽象代数续论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3101M",
+      "name": "偏微分方程",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3201M",
+      "name": "群与代数表示引论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3281M",
+      "name": "代数拓扑",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3381M",
+      "name": "微分流形",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2402M",
+      "name": "数理统计",
+      "credits": 4,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2761FH",
+      "name": "数学建模（H）",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring",
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3103M",
+      "name": "泛函分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3206M",
+      "name": "代数数论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2603M",
+      "name": "数据结构和算法",
+      "credits": 4,
+      "recommendedTerms": [
+        "y2-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2105M",
+      "name": "应用复变函数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH3601M",
+      "name": "数值分析",
+      "credits": 3.5,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2202M",
+      "name": "初等数论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2601M",
+      "name": "数值代数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y2-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3608M",
+      "name": "优化实用算法",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3104M",
+      "name": "应用泛函分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3681M",
+      "name": "微分方程数值解",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4609M",
+      "name": "有限元方法",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH1601M1",
+      "name": "人工智能与数学软件",
+      "credits": 2,
+      "recommendedTerms": [
+        "y1-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2001M",
+      "name": "数学史",
+      "credits": 2,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2901M",
+      "name": "数学实践",
+      "credits": 3,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3901M",
+      "name": "课程实习",
+      "credits": 2,
+      "recommendedTerms": [],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4901M",
+      "name": "前沿数学专题讨论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4902M",
+      "name": "毕业论文",
+      "credits": 8,
+      "recommendedTerms": [
+        "y4-spring"
+      ],
+      "tags": [
+        "必修"
+      ]
+    },
+    {
+      "code": "MATH2203M",
+      "name": "交换代数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3301M",
+      "name": "黎曼曲面",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3408M",
+      "name": "金融数学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3702M",
+      "name": "组合优化",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3703M",
+      "name": "渐近法与摄动理论",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4103M",
+      "name": "复分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH2604M",
+      "name": "离散数学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3182M",
+      "name": "实分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3202M",
+      "name": "代数几何",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3203M",
+      "name": "李群与李代数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3205M",
+      "name": "同调代数",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3302M",
+      "name": "黎曼几何",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3502M",
+      "name": "数据建模与分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3603M",
+      "name": "计算机密码学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3705M",
+      "name": "人工神经网络模型与算法",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3706M",
+      "name": "控制理论基础",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3902M",
+      "name": "现代数学进展",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4101M",
+      "name": "现代偏微分方程",
+      "credits": 3,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3102M",
+      "name": "广义函数论",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3605M",
+      "name": "计算几何",
+      "credits": 2,
+      "recommendedTerms": [
+        "y3-spring"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3207M",
+      "name": "代数几何初步",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3501M",
+      "name": "数据科学的数学基础",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH3708M",
+      "name": "计算机图形学",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4102M",
+      "name": "现代调和分析",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4202M",
+      "name": "代数几何Ⅱ",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    },
+    {
+      "code": "MATH4203M",
+      "name": "代数群",
+      "credits": 3,
+      "recommendedTerms": [
+        "y4-fall"
+      ],
+      "tags": [
+        "选修"
+      ]
+    }
+  ]
+}
