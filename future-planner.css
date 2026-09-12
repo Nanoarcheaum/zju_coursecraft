@@ -65,3 +65,27 @@
 .fp-warehouse,.fp-warehouse-list,.fp-warehouse-course,.fp-dialog,.fp-dialog[open],.fp-import-review,.fp-review-row,.fp-overview-table,.fp-overview-row{background-color:var(--fp-surface)!important;background-image:none!important;opacity:1!important;backdrop-filter:none!important}
 .fp-warehouse>header,.fp-warehouse>footer,.fp-search,.fp-overview-head{background-color:var(--fp-inset)!important;background-image:none!important;opacity:1!important}
 .fp-dialog::backdrop{background-color:color-mix(in srgb,var(--fp-ink) 48%,transparent)!important;opacity:1!important}
+
+/* Dense two-column course warehouse and recognition-credit system. */
+.fp-planner-layout{grid-template-columns:minmax(680px,1fr) minmax(440px,500px)}
+.fp-warehouse-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;grid-auto-rows:max-content}
+.fp-warehouse-course{min-width:0;align-self:start}
+.fp-course-summary{grid-template-columns:14px minmax(0,1fr) auto}
+.fp-course-summary strong{display:block;line-height:1.3;overflow-wrap:anywhere}
+.fp-course-summary small{display:block;overflow-wrap:anywhere}
+.fp-status{padding-inline:5px}
+.fp-panel-title>[data-term-stat]{display:grid;justify-items:end;gap:6px}
+.fp-credit-main{white-space:nowrap}
+.fp-recognition-totals{display:flex;justify-content:flex-end;gap:4px;flex-wrap:wrap;max-width:420px}
+.fp-recognition{display:inline-flex;align-items:center;white-space:nowrap;border:1px solid var(--fp-line);border-radius:999px;padding:2px 6px;font-size:8px;font-weight:600;line-height:1.35}
+.fp-recognition.美育{background:color-mix(in srgb,#d7779a 18%,var(--fp-surface));border-color:color-mix(in srgb,#d7779a 52%,var(--fp-line));color:color-mix(in srgb,#b84470 78%,var(--fp-ink))}
+.fp-recognition.劳育{background:color-mix(in srgb,#c88c45 18%,var(--fp-surface));border-color:color-mix(in srgb,#c88c45 52%,var(--fp-line));color:color-mix(in srgb,#9a6426 78%,var(--fp-ink))}
+.fp-recognition.心理{background:color-mix(in srgb,#6d91c8 18%,var(--fp-surface));border-color:color-mix(in srgb,#6d91c8 52%,var(--fp-line));color:color-mix(in srgb,#456da8 78%,var(--fp-ink))}
+.fp-recognition.创新{background:color-mix(in srgb,#7c9c55 18%,var(--fp-surface));border-color:color-mix(in srgb,#7c9c55 52%,var(--fp-line));color:color-mix(in srgb,#587c2e 78%,var(--fp-ink))}
+.fp-recognition-editor{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;border:1px solid var(--fp-line);border-radius:10px;padding:10px}
+.fp-recognition-editor legend{padding:0 5px;color:var(--fp-muted);font-size:10px}
+.fp-recognition-editor label{display:flex;grid-template-columns:auto 1fr;align-items:center;gap:5px;margin:0;padding:5px 8px;border-radius:999px;background:var(--fp-inset)}
+.fp-review-row{scroll-margin-block:16px}
+@media(max-width:1180px){.fp-planner-layout{grid-template-columns:minmax(680px,1fr) minmax(400px,440px)}}
+@media(max-width:1050px){.fp-warehouse-list{grid-template-columns:repeat(2,minmax(0,1fr))}.fp-panel-title>[data-term-stat]{justify-items:start}.fp-panel-title{align-items:flex-start;flex-wrap:wrap}.fp-recognition-totals{justify-content:flex-start}}
+@media(max-width:620px){.fp-warehouse-list{grid-template-columns:1fr}}
