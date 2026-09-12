@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         浙大选课课程信息导出助手
 // @namespace    local.codex.zju.course-exporter
-// @version      1.7.0
+// @version      1.8.0
 // @description  在已登录的浙大本科教务选课页面中，本地捕获课程数据并导出 JSON/CSV；不上传数据。
 // @match        *://zdbk.zju.edu.cn/*
 // @run-at       document-start
@@ -11,7 +11,7 @@
 (() => {
   'use strict';
 
-  const STORE_KEY = '__zju_course_exporter_capture_v7__';
+  const STORE_KEY = '__zju_course_exporter_capture_v8__';
   const MESSAGE_TYPE = '__zju_course_exporter_v2__';
   const captured = [];
   const seen = new Set();
@@ -251,7 +251,8 @@
       课程号: head[2],
       课程名称: text(head[3]),
       学分: head[4],
-      课程类别: field('课程类别', ['开课学院', '状态']),
+      课程类别: field('课程类别', ['认定类别', '开课学院', '状态']),
+      认定类别: field('认定类别', ['开课学院', '状态']),
       开课学院: field('开课学院', ['状态']),
       状态: field('状态', []),
     };
@@ -296,6 +297,7 @@
       课程名称: courseName,
       学分: credits,
       课程类别: parseLabeledSpan(header, '课程类别'),
+      认定类别: parseLabeledSpan(header, '认定类别'),
       开课学院: parseLabeledSpan(header, '开课学院'),
       状态: parseLabeledSpan(header, '状态'),
     };
@@ -558,7 +560,7 @@
     scanTables();
     const exportedRecords = captured.map((item) => ({ ...item, data: enrichFromCatalog(item.data) }));
     const output = {
-      exportedAt: now(), page: safeUrl(location.href), version: '1.7.0',
+      exportedAt: now(), page: safeUrl(location.href), version: '1.8.0',
       count: captured.length, observedResponses: diagnostics.length,
       note: '由浙大选课课程信息导出助手在本地浏览器中生成。diagnostics 只记录接口地址和结构摘要，不含响应正文。',
       diagnostics, records: exportedRecords,
@@ -571,6 +573,7 @@
     ['课程名称', ['kcmc', 'kcm', 'courseName', 'course_name', '课程名称', '课程名']],
     ['教学班', ['jxbmc', 'jxb_id', '教学班', '教学班名称', 'data-xkkh']],
     ['学分', ['xf', 'credits', '学分']],
+    ['认定类别', ['rdlb', '认定类别', '认定类型', 'recognition']],
     ['教师', ['jsxm', 'jsxx', 'jstxt', '教师', '教师姓名']],
     ['上课时间', ['sksj', 'sksj_text', 'sjdd', '上课时间', '时间']],
     ['地点', ['jxdd', 'cdmc', '上课地点', '地点']],
@@ -606,7 +609,7 @@
       const summary = parseCoursePanel(table.closest('.panel.panel-info'));
       sections.push([`页面可见表格 ${index + 1}`]);
       if (summary) {
-        const prefixHeader = ['课程代码', '课程号', '课程名称', '学分', '课程类别', '开课学院', '状态'];
+        const prefixHeader = ['课程代码', '课程号', '课程名称', '学分', '课程类别', '认定类别', '开课学院', '状态'];
         const prefixValues = prefixHeader.map((key) => summary[key] || '');
         [...table.rows].forEach((row, rowIndex) => {
           const cells = [...row.cells]
