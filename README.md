@@ -1,6 +1,7 @@
 # 课构 zju_CourseCraft
 
 **课构（CourseCraft）** 是一款完全在浏览器本地运行的大学课程规划器。旨在可以提前规划未来学期的课程安排，掌握全局视角。
+先叠个甲：每年开课的具体时间可能会有变动，课构只能获取爬取时刻的数据，仅供参考，一切以官网课程安排为准！
 
 ## 一、包里有什么
 
@@ -27,10 +28,10 @@
 
 ### 3.培养方案映射范例文件
 内含两个培养方案映射范例文件，可以直接导入程序获取映射关系，其他专业的同学可能需要用大模型仿照范例翻译一下自己的培养方案了qwq
-- [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生物科学。
+- [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生命科学（强基计划）。
 - [`examples/zju-mathematics.curriculum-map.json`](examples/zju-mathematics.curriculum-map.json)：数学与应用数学。
 
-## 食用方法
+## 二、食用方法
 
 ### 1. 下载并打开网页
 **独立网页端：**
@@ -39,7 +40,7 @@
 3. 双击 `index.html`，或把它拖入浏览器。
 4. 不要单独移动 `index.html`；它需要同目录的 JavaScript 和 CSS 文件。
 **Obsidian端：**
-前往作者主页下载最新版本 i-home 插件（https://github.com/Nanoarcheaum/Obsidian-i-home），现已原生支持 coursecraft 功能，只需要切换到周历即可看到入口
+前往作者主页下载最新版本 i-home 插件（https://github.com/Nanoarcheaum/Obsidian-i-home）， 现已原生支持 coursecraft 功能，只需要切换到周历即可看到入口
 <img width="766" height="125" alt="image" src="https://github.com/user-attachments/assets/eeca973b-e416-4e1b-affa-4a1befdc70be" />
 
 
@@ -80,7 +81,7 @@
 
 仓库提供两份可以直接导入的浙江大学示例：
 
-- [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生物科学。
+- [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生命科学（强基计划）。
 - [`examples/zju-mathematics.curriculum-map.json`](examples/zju-mathematics.curriculum-map.json)：数学与应用数学。
 
 示例由特定版本培养方案整理，使用前应按照自己入学年份和学校最新方案核对。课构（CourseCraft）的初始页面不预装任何培养方案或个人课程数据。
