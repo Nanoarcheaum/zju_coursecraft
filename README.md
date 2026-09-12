@@ -28,6 +28,9 @@
 - 4 套界面外观 × 浅色/深色，共 8 种组合。
 
 ### 3.培养方案映射范例文件
+
+培养方案映射是一个独立 JSON 文件，只包含课程、学分、建议修读学期和标签。它不包含教师、上课时间或地点，也不会单独激活课程。
+
 内含两个培养方案映射范例文件，可以直接导入程序获取映射关系，其他专业的同学可能需要用大模型仿照范例翻译一下自己的培养方案了qwq
 - [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生命科学（强基计划）。
 - [`examples/zju-mathematics.curriculum-map.json`](examples/zju-mathematics.curriculum-map.json)：数学与应用数学。
@@ -40,6 +43,7 @@
 2. 解压下载的文件，进入 `zju_coursecraft` 文件夹。
 3. 双击 `index.html`，或把它拖入浏览器。
 4. 不要单独移动 `index.html`；它需要同目录的 JavaScript 和 CSS 文件。
+
 **Obsidian端：**
 前往作者主页下载最新版本 i-home 插件（https://github.com/Nanoarcheaum/Obsidian-i-home）， 现已原生支持 coursecraft 功能，只需要切换到周历即可看到入口
 <img width="766" height="125" alt="image" src="https://github.com/user-attachments/assets/eeca973b-e416-4e1b-affa-4a1befdc70be" />
