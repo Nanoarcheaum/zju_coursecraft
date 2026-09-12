@@ -10,7 +10,17 @@
 
 可以一键获取课程信息的脚本，需要通过浏览器的篡改猴插件配置
 
-### 2.coursecraft 本体（独立网页版与Obsidian插件版）
+### 2.随仓库提供的课程包
+
+仓库的 [`course-packs/`](course-packs/) 目录提供三份已经导出的课程包，可直接下载并导入课构：
+
+- [`zju-courses-tongshibixiu.json`](course-packs/zju-courses-tongshibixiu.json)：通识必修，93 门课程、793 个教学班。
+- [`zju-courses-PE.json`](course-packs/zju-courses-PE.json)：体育课，73 门课程、705 个教学班。
+- [`zju-courses-sk.json`](course-packs/zju-courses-sk.json)：生命科学学院专业课，50 门课程、108 个教学班。
+
+这些文件是 2026 年 9 月 12 日的选课页面快照，教师、时间、地点和容量以后可能变化；使用时请以教务系统当期信息为准。
+
+### 3.coursecraft 本体（独立网页版与Obsidian插件版）
 **基本功能：**
 - **导入脚本**获取的课程包，可批量取消不需要的课程。
 <img width="1273" height="691" alt="image" src="https://github.com/user-attachments/assets/87fb3655-f5eb-4863-a404-e45d3ef55e58" />
@@ -21,13 +31,15 @@
 
 <img width="613" height="692" alt="image" src="https://github.com/user-attachments/assets/99cc9c10-83da-446d-870c-bf6cdf9289e5" />
 
-- **课程仓库**搜索、折叠、编辑和全库总览。
+- **课程仓库**支持双列浏览、搜索、折叠、编辑和全库总览；一门课程有三个及以上平行班时默认收起。
 
 - **培养方案映射**：通过导入培养方案映射可以获取课程推荐学习的学期，并在当学期顶置这些课程
 
+- 美育、劳育、心理、创新四类课程认定与全规划学分统计；未标注认定类别的课程不参与统计。
+
 - 4 套界面外观 × 浅色/深色，共 8 种组合。
 
-### 3.培养方案映射范例文件
+### 4.培养方案映射范例文件
 
 培养方案映射是一个独立 JSON 文件，只包含课程、学分、建议修读学期和标签。它不包含教师、上课时间或地点，也不会单独激活课程。
 
@@ -143,5 +155,4 @@ zju_coursecraft/
 ## License
 
 [MIT](LICENSE)
-
 
