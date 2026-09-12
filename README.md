@@ -12,13 +12,14 @@
 
 ### 2.随仓库提供的课程包
 
-仓库的 [`course-packs/`](course-packs/) 目录提供三份已经导出的课程包，可直接下载并导入课构：
+仓库的 [`course-packs/`](course-packs/) 目录提供四份已经导出的课程包，可直接下载并导入课构：
 
-- [`zju-courses-tongshibixiu.json`](course-packs/zju-courses-tongshibixiu.json)：通识必修，93 门课程、793 个教学班。
-- [`zju-courses-PE.json`](course-packs/zju-courses-PE.json)：体育课，73 门课程、705 个教学班。
-- [`zju-courses-sk.json`](course-packs/zju-courses-sk.json)：生命科学学院专业课，50 门课程、108 个教学班。
+- [`zju-courses-tongshibixiu.json`](course-packs/zju-courses-tongshibixiu.json)：通识必修，93 门课程、793 个教学班；获取于 **2026-09-12 17:05:06（UTC+8）**。
+- [`zju-courses-PE.json`](course-packs/zju-courses-PE.json)：体育课，73 门课程、705 个教学班；获取于 **2026-09-12 17:06:48（UTC+8）**。
+- [`zju-courses-sk.json`](course-packs/zju-courses-sk.json)：生命科学学院专业课，50 门课程、108 个教学班；获取于 **2026-09-12 17:01:04（UTC+8）**。
+- [`zju-courses-rending.json`](course-packs/zju-courses-rending.json)：认定类课程，156 门课程、294 个教学班；含美育 55 门、劳育 55 门、心理 23 门、创新 24 门，其中“舞动身心疗愈”同时计入美育和心理；获取于 **2026-09-12 17:49:31（UTC+8）**。
 
-这些文件是 2026 年 9 月 12 日的选课页面快照，教师、时间、地点和容量以后可能变化；使用时请以教务系统当期信息为准。
+这些文件是选课页面快照，教师、时间、地点和容量以后可能变化；使用时请以教务系统当期信息为准。
 
 ### 3.coursecraft 本体（独立网页版与Obsidian插件版）
 **基本功能：**
@@ -155,4 +156,3 @@ zju_coursecraft/
 ## License
 
 [MIT](LICENSE)
-
