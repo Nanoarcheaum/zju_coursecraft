@@ -27,16 +27,22 @@
 
 ### 3.培养方案映射范例文件
 内含两个培养方案映射范例文件，可以直接导入程序获取映射关系，其他专业的同学可能需要用大模型仿照范例翻译一下自己的培养方案了qwq
-
+- [`examples/zju-bioscience.curriculum-map.json`](examples/zju-bioscience.curriculum-map.json)：生物科学。
+- [`examples/zju-mathematics.curriculum-map.json`](examples/zju-mathematics.curriculum-map.json)：数学与应用数学。
 
 ## 食用方法
 
 ### 1. 下载并打开网页
-
+**独立网页端：**
 1. 在 GitHub 页面点击 **Code → Download ZIP**。
 2. 解压下载的文件，进入 `zju_coursecraft` 文件夹。
 3. 双击 `index.html`，或把它拖入浏览器。
 4. 不要单独移动 `index.html`；它需要同目录的 JavaScript 和 CSS 文件。
+**Obsidian端：**
+前往作者主页下载最新版本 i-home 插件（https://github.com/Nanoarcheaum/Obsidian-i-home），现已原生支持 coursecraft 功能，只需要切换到周历即可看到入口
+<img width="766" height="125" alt="image" src="https://github.com/user-attachments/assets/eeca973b-e416-4e1b-affa-4a1befdc70be" />
+
+
 
 ### 2. 安装篡改猴导出脚本
 
@@ -53,10 +59,11 @@
 ### 3. 导出课程包
 
 1. 因为脚本会获取当前网页的全部课程，推荐**灵活使用搜索功能**限制当前页面的课程，再重复执行以下操作：
-2. 点击页面右下角的 **一键获取全部课程信息**。
-3. 等待脚本自动加载“查看更多”、展开课程并读取教学班。
-4. 完成后点击 **导出 JSON**。CSV 也可导入，但 JSON 保留的信息更完整。
-5. 导出文件前可以查看脚本显示的课程数和诊断信息。
+<img width="257" height="249" alt="image" src="https://github.com/user-attachments/assets/f4e5e7ca-aa2f-4b51-8a8e-fa5067c515e6" />
+
+2. 点击页面右下角的 **后台加载全部课程信息** 再点击 **一键获取全部课程信息**。
+3. 完成后点击 **导出 JSON**。CSV 也可，但 JSON 保留的信息更完整。
+
 
 ### 4. 导入课程包并排课
 
@@ -94,6 +101,7 @@
 | `y4-fall` / `y4-spring` | 大四秋冬 / 春夏 |
 
 需要撤销时，点击课程仓库底部的 **删除培养方案映射**。此操作会移除灰色提示和推荐学期，不会删除课程包及已经排入课表的教学班。
+
 
 ## 支持的文件
 
